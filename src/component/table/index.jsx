@@ -1,3 +1,4 @@
+import Profile from "../../assets/avatar.png";
 export default function Table() {
   return (
     <div className="max-w-[848px] mx-auto overflow-auto">
@@ -27,7 +28,7 @@ export default function Table() {
               <div className="flex space-x-3 items-center">
                 <img
                   className="w-8 h-8"
-                  src="./assets/avatar.png"
+                  src={Profile}
                   width="32"
                   height="32"
                   alt="John Smith"
@@ -44,7 +45,7 @@ export default function Table() {
               <div className="flex space-x-3 items-center">
                 <img
                   className="w-8 h-8"
-                  src="./assets/avatar.png"
+                  src={Profile}
                   width="32"
                   height="32"
                   alt="John Smith"
@@ -61,7 +62,7 @@ export default function Table() {
               <div className="flex space-x-3 items-center">
                 <img
                   className="w-8 h-8"
-                  src="./assets/avatar.png"
+                  src={Profile}
                   width="32"
                   height="32"
                   alt="John Smith"
@@ -85,7 +86,7 @@ export default function Table() {
               <div className="flex space-x-3 items-center">
                 <img
                   className="w-8 h-8"
-                  src="./assets/avatar.png"
+                  src={Profile}
                   width="32"
                   height="32"
                   alt="John Smith"
@@ -102,7 +103,7 @@ export default function Table() {
               <div className="flex space-x-3 items-center">
                 <img
                   className="w-8 h-8"
-                  src="./assets/avatar.png"
+                  src={Profile}
                   width="32"
                   height="32"
                   alt="John Smith"
@@ -119,7 +120,7 @@ export default function Table() {
               <div className="flex space-x-3 items-center">
                 <img
                   className="w-8 h-8"
-                  src="./assets/avatar.png"
+                  src={Profile}
                   width="32"
                   height="32"
                   alt="John Smith"
