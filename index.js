@@ -40,6 +40,7 @@ function Gallery() {
   }
 
 
+
   function handleMoreClick() {
     setShowMore(!showMore);
   }
@@ -69,7 +70,6 @@ function updateDOM() {
   // This is the part React does for you.
   nextButton.onclick = output.onNextClick;
   header.textContent = output.header;
-  counter.counte = output.counter;
   moreButton.onclick = output.onMoreClick;
   moreButton.textContent = output.more;
   image.src = output.imageSrc;
