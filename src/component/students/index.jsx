@@ -1,3 +1,4 @@
+import logo from "../../assets/lws-logo-en.svg";
 import StudentInput from "../input";
 
 export default function StudentsInfo() {
@@ -41,7 +42,7 @@ export default function StudentsInfo() {
                   <div className="flex space-x-3 items-center">
                     <img
                       className="w-8 h-8"
-                      src="./assets/avatar.png"
+                      src={logo}
                       width="32"
                       height="32"
                       alt="John Smith"
