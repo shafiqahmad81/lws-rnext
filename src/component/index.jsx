@@ -3,3 +3,4 @@ export { default as StudentInput } from "./input";
 export { default as Section } from "./section";
 export { default as Students } from "./students";
 export { default as Table } from "./table";
+export { default as TableHeader } from "./table-header";
