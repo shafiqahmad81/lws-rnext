@@ -1,5 +1,13 @@
+import { Section } from "./components";
+import PackingList from "./components/PackingList";
+
 function App() {
-  return <>Hello</>;
+  return (
+    <>
+      <PackingList />
+      <Section />
+    </>
+  );
 }
 
 export default App;
