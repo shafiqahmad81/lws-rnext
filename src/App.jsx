@@ -1,12 +1,16 @@
-import { Profile } from "./components";
+import { Abatar, Profile } from "./components";
 
 function App() {
+  const age = 30;
+  const name = "Shafiq";
+  const size = 45;
   return (
     <>
-      <Profile
-        person={{ name: "Lin Lanying", imageId: "1bX5QH6" }}
-        size="100"
-      />
+      <div>
+        <Profile size={size}>
+          <Abatar age={age} name={name} />
+        </Profile>
+      </div>
     </>
   );
 }
