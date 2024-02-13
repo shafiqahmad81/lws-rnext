@@ -1,15 +1,15 @@
+import Button from "./button";
+import Search from "./search";
 export default function App() {
   return (
     <>
-      <form
-        onSubmit={(e) => {
-          console.dir(e);
-          e.preventDefault();
-        }}
-      >
-        <input className=" bg-gray-300" />
-        <button>Send</button>
-      </form>
+      <div onClick={() => console.log("Play button")}>
+        <Button onSmash={() => console.log("Play Movie")}>Play Movie</Button>
+        <Button onSmash={() => console.log("Upload Image")}>
+          Upload Image
+        </Button>
+      </div>
+      <Search />
     </>
   );
 }

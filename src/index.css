@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  button {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  input {
+    border: 1px solid #ddd;
+  }
+}
