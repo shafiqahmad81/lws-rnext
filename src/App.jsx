@@ -1,5 +1,7 @@
+import { Form } from "./components";
+
 function App() {
-  return <>Hello</>;
+  return <Form />;
 }
 
 export default App;
