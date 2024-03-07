@@ -1,6 +1,9 @@
 function App() {
   return(
-    <><div><h1>learn react</h1></div></>
+    <>
+    <div><h1>learn react</h1></div>
+    <div><h1>learn react</h1></div>
+    </>
   ) 
 }
 
