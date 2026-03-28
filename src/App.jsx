@@ -1,8 +1,14 @@
-export default function App() {
-  return (
-    <>
-      <h1 className="text-5xl text-center font-bold">This is a new page</h1> 
-    </>
-  );
+
+import Avatar from "./avatar";
+import Profile from "./profile";
+
+export default function App(){
+
+    return (
+        <div>
+          <Profile>
+            <Avatar />
+          </Profile>
+        </div>
+    );
 }
- 
